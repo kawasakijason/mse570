@@ -34,4 +34,3 @@ energy,wavefunctions = np.linalg.eigh(H)
 for i in range(5):
     plt.plot(x,wavefunctions[:,i]**2*scaling + energy[i])
 print(energy[:5])
-
