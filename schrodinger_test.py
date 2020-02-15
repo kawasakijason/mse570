@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[11]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -19,8 +13,8 @@ xend = 5
 N=100
 
 x=np.linspace(xstart, xend, N)
-#potential = 1/2*x**2   # harmonic oscilator
-potential = -abs(10/x)  # coulomb (atom)
+potential = 1/2*x**2   # harmonic oscilator
+#potential = -abs(10/x)  # coulomb (atom)
 plt.plot(x, potential)
 
 # assemble H matrix and diagonalize
